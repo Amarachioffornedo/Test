@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>MobileVTU</title>
+</head>
+
+<body>
+    <style>
+        .topPart {
+            background: url('/back.jpeg');
+            height: 30vh;
+            border-radius: 0px 0px 20px 20px;
+        }
+        .topPart img {
+            height: 20px;
+        }
+        .bottomPart{
+            width: 90%;
+            margin: auto;
+            top: -50px;
+            border-radius: 20px 20px 20px 20px;
+            position: relative;
+        }
+        .transactionsDetails{
+            top:-50px;
+        }
+        .items{
+            border-radius: 20px;
+            height: 70px;
+            width: 70px;
+        }
+        .items img {
+            height: 30px;
+        }
+
+    </style>
+    <div class="text-white p-3 topPart">
+        <div class="d-flex justify-content-between">
+            <h2>Menu</h2>
+            <h2>John Doe</h2>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-between align-items-start">
+                <img src="/wallet.png" class="pe-1 img-fluid" alt="wallet icon" />
+                <button class="btn btn-primary" type="submit">Fund Wallet  </button>
+                  <!-- <span>Fund Wallet</span> -->
+            </div>
+            <div>
+                <h2 class="display-3 fw-bold" >$5,732</h2>
+            </div>
+        </div>
+        <div class="d-flex text-end align-items-center">
+            <div class="d-flex align-items-center justify-content-end ms-auto">
+            <span>Avaliable Fund</span>
+            <!-- <img src="/eye.png" class="img-fluid" alt="eye icon" /> -->
+        </div>
+      
+        </div>
+    </div>
+<div class="bottomPart p-3 bg-white d-flex justify-content-between">
+    <div class="items shadow p-2">
+        <center>
+      <img  class="img-fluid" src="/network.png"/>  
+      <span class="fw-bold">Data</span>
+       </center>
+     </div>
+    <div class="items shadow p-2">
+        <center>
+        <img class="img-fluid" src="/top-up.png"/>  
+        <span class="fw-bold">Airtime</span>
+    </center>
+      </div>
+      <div class="items shadow p-2">
+        <center>
+        <img class="img-fluid" src="/bulk.png"/>  
+        <span class="fw-bold">Bulk</span>
+       </center>
+      </div>
+</div>
+<div class="transactionsDetails p-3">
+    <h2>My Transactions</h2>
+    <div>
+        <div>
+            <p>top-up</p>
+        </div>
+        <div>
+            <p>Amount</p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
